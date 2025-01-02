@@ -1,5 +1,3 @@
-package basics;
-
 public class Expressions {
     public static void main(String[] args) {
         // Expressions: Operands (values) & Operators (arithmetic)

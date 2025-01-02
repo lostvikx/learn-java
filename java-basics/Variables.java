@@ -1,5 +1,3 @@
-package basics;
-
 // There are 8 primitive data types: boolean (*), byte, short, int (*), long, float, double (*), char (*)
 // and a reference data type: String (*)
 // (*) - Important data types.
