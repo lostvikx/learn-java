@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ArrayLists {
+public class ArrayListDatatype {
     public static void main(String[] args) {
         // ArrayList: A resizable array.
         // Element can be added/removed. Also store reference data types.
