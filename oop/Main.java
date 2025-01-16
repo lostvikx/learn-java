@@ -33,5 +33,37 @@ public class Main {
         // Constructor overloading
         Pizza pizza = new Pizza("thin crust", "tomato", "mozzarella");
         pizza.listIngredients();
+
+        System.out.println("---------");
+
+        // Print objects using toString method: special method that all objects inherit
+        Human person = new Human("Emma", 24, 55.74);
+
+        // System.out.println(person);  // Prints the address of `person` object in memory. Eg. Object@MemoryAddress
+        // System.out.println(person.name);
+        // System.out.println(person.age);
+        // System.out.println(person.weight);
+
+        System.out.println(person.toString());  // or simply print `person` object.
+
+        System.out.println("---------");
+
+        // Array of objects
+        // int[] numbers = new int[3];  // examples
+        // String[] items = new String[3];
+        // Food[] refrigerator = new Food[3];
+        
+        Food item1 = new Food("Pizza");
+        Food item2 = new Food("Burger");
+        Food item3 = new Food("Hotdog");
+
+        Food[] refrigerator = {item1, item2, item3};  // Array of Objects
+
+        System.out.println("Items in refrigerator:");
+        for (int i = 0; i < refrigerator.length; i++) {
+            System.out.printf("%d. %s\n", i+1, refrigerator[i].name);
+        }
+
+        System.out.println("---------");
     }
 }
